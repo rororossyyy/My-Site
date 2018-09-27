@@ -220,26 +220,26 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#A6A6A6; background-color:#26272B;}
-a{color:#C5A059;}
+body{color:#e6e6fa; background-color:#c6c6ff;}
+a{color:#FFC0CB;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
+input:focus, textarea:focus, *:required:focus{border-color:#FFC0CB;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#C5A059; border-color:#C5A059;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FFC0CB; border-color:#FFC0CB;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
 /* Rows */
 .row0, .row0 a{}
 .row1{border-color:rgba(255,255,255,.1);}
-.row2{color:#A6A6A6;}
+.row2{color:#e6e6fa;}
 .row3{color:#797979; background-color:#FFFFFF;}
-.row4.overlay{color:#A6A6A6; background-color:#151517;}
-.row5, .row5 a{color:#A6A6A6; background-color:#26272B;}
+.row4.overlay{color:#e6e6fa; background-color:#151517;}
+.row5, .row5 a{color:#e6e6fa; background-color:#c6c6ff;}
 
 
 /* Header */
@@ -247,10 +247,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
 
 
 /* Content Area */
-.services article{color:inherit; border-color:#C5A059;}
+.services article{color:inherit; border-color:#FFC0CB;}
 .services article .txtwrap{border-color:transparent;}
 .services article:hover .txtwrap, .services .active article .txtwrap{color:#FFFFFF; border-color:#D7D7D7;}
-.services article footer a{color:#FFFFFF; background-color:#C5A059;}
+.services article footer a{color:#FFFFFF; background-color:#FFC0CB;}
 
 #shout .heading{color:#FFFFFF; background:inherit;}
 
@@ -258,31 +258,31 @@ input:focus, textarea:focus, *:required:focus{border-color:#C5A059;}
 /* Footer */
 #footer .heading{color:#FFFFFF;}
 #footer input, #footer button{color:#FFFFFF; background-color:#000000;}
-#footer button{color:#C5A059;}
+#footer button{color:#FFC0CB;}
 
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#C5A059; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FFC0CB; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#C5A059;}
-#mainav form select{color:#FFFFFF; background-color:#26272B; border-color:rgba(255,255,255,.2);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FFC0CB;}
+#mainav form select{color:#FFFFFF; background-color:#c6c6ff; border-color:rgba(255,255,255,.2);}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#C5A059;}
+.container .sidebar nav a:hover{color:#FFC0CB;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#C5A059;}
+.pagination .current *{color:#FFFFFF; background-color:#FFC0CB;}
 
-#backtotop{color:#FFFFFF; background-color:#C5A059;}
+#backtotop{color:#FFFFFF; background-color:#FFC0CB;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#C5A059;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#FFC0CB;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
