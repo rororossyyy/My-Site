@@ -11,7 +11,6 @@ File: Layout CSS
 @import url("fontawesome-4.6.3.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
-
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
@@ -104,7 +103,7 @@ File: Layout CSS
 
 /* Transition Fade
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
+*, *::before{transition:all 1s ease-in-out;}, *::after{transition:all 1s ease-in-out;}
 #mainav form *{transition:none !important;}
 
 
@@ -247,10 +246,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFC0CB;}
 
 
 /* Content Area */
-.services article{color:inherit; border-color:#FFC0CB;}
+.services article{color:inherit; border-color:#c6c6ff;}
 .services article .txtwrap{border-color:transparent;}
-.services article:hover .txtwrap, .services .active article .txtwrap{color:#FFFFFF; border-color:#D7D7D7;}
-.services article footer a{color:#FFFFFF; background-color:#FFC0CB;}
+.services article:hover .txtwrap, .services .active article .txtwrap{color:white; border-color:#c6c6ff;}
+.services article footer a{color:#FFFFFF; background-color:#c6c6ff;}
 
 #shout .heading{color:#FFFFFF; background:inherit;}
 
@@ -264,7 +263,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFC0CB;}
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FFC0CB; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:#e6e6fa; border-color:#e6e6fa;}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FFC0CB;}
 #mainav form select{color:#FFFFFF; background-color:#c6c6ff; border-color:rgba(255,255,255,.2);}
 
